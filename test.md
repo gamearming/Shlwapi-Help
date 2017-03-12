@@ -1,4 +1,5 @@
-e">
+<table responsive="true" summary="table">
+              <tr responsive="true">
                 <th scope="col">Topic</th>
                 <th scope="col">Description</th>
               </tr>
@@ -992,35 +993,3 @@ e">
                 </td>
               </tr>
             </table>
-            <p></p>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="libraryMemberFilter">
-          <div class="filterContainer"><span>Show:</span>
-            <label>
-              <input type="checkbox" class="libraryFilterInherited" checked="checked" value="Inherit" />Inherited
-            </label>
-            <label>
-              <input type="checkbox" class="libraryFilterProtected" checked="checked" value="Protected" />Protected
-            </label>
-          </div>
-        </div>
-        <input type="hidden" id="libraryMemberFilterEmptyWarning" value="There are no members available with your current filter settings." />
-      </div>
-      <div id="rightNavigationMenu" ms.cmpgrp="right nav">
-        <div id="mobileButtons">
-          <div id="navigationButtons">
-            <a id="isd_print" href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773559(d=printer,v=vs.85).aspx"
-              rel="nofollow"><ins class="print"></ins>Print </a>
-            <a id="isd_printABook" href="/en-us/library/export/help/?returnurl=%2fen-us%2flibrary%2fwindows%2fdesktop%2fbb773559(v%3dvs.85).aspx">
-              <ins class="export"></ins>Export (<span class="count">0</span>) </a>
-          </div>
-        </div>
-        <div id="navMain">
-          <div id="closeNavigation">
-            <a class="tocCloseSmall" id="closeButton"></a>
-          </div>
-          <div id="navigationButtons">
-          
