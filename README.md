@@ -1,4 +1,4 @@
-<table responsive="true" summary="table" width="100%">
+<table width="100%">
               <tr responsive="true">
                 <th scope="col" class="style3">主題</th>
                 <th scope="col" class="style3">描述</th>
