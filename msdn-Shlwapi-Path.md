@@ -9,11 +9,9 @@
                 </td>
                 <td data-th="Description">
                   <ol style="list-style-type:none;">
-                    <code>
-                    <em>
+                    <code>     
                     <li>Adds a backslash to the end of a string to create the correct syntax for a path.</li>
-                    <li>If the source path already has a trailing backslash, no backslash will be added.</li>
-                    </em>
+                    <li>If the source path already has a trailing backslash, no backslash will be added.</li>        
                     </code>
                     <li>將反斜線新增到字串的末尾做為新的路徑，如果原始路徑沒有反斜線則不會新增。</li>
                   </ol>
