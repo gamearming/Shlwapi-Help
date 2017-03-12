@@ -8,7 +8,7 @@
                   <p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773561(v=vs.85).aspx"><strong>PathAddBackslash</strong></a></p>
                 </td>
                 <td data-th="Description">
-                  <ul style="list-style-type:none;>                    
+                  <ul style="list-style-type:none;">                    
                     <li><code>Adds a backslash to the end of a string to create the correct syntax for a path.</code></li>
                     <li><code>If the source path already has a trailing backslash, no backslash will be added.</code></li>
                     <li>將反斜線新增到字串的末尾做為新的路徑，如果原始路徑沒有反斜線則不會新增。</li>
@@ -47,11 +47,11 @@
                     <li>新增副檔名到路徑結尾。</li>
                   </ol>
                   <code>
-                  <ol>
+                  <ul style="list-style-type:decimal;"> 
                     <li>TCHAR szFilePath[_MAX_PATH] = _T("C:\\TEST\\FILE");</li>
                     <li>TCHAR szExts[_MAX_EXT] = _T(".doc");</li>
                     <li>_tprintf(_T("%d = [%s]\r\n"), ::PathAddExtension(szFilePath, szExts), szFilePath); // C:\TEST\FILE.doc</li>
-                  </ol>
+                  </ul>
                   </code>
                   <div class="alert">
                     <strong>Note:</strong>
