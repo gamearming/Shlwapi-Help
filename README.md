@@ -1,3 +1,4 @@
+<body width="100%">
 <div id="leftNav" ms.cmpgrp="left toc" role="navigation" aria-label="left toc">
         <div id="tocnav" class="ArchiveV2">
           <div class="tocunselected">
@@ -352,3 +353,4 @@
             and is not being maintained.</div>
         </div>
       </div>
+</body>
