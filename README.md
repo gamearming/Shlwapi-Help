@@ -1,5 +1,6 @@
 本節介紹 Windows SHELL 程式路徑處理函數。本文檔所述的程式設計元素是由 Shlwapi.dll 匯出和 Shlwapi.h 和 Shlwapi.lib 中定義。
-<p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773559(v=vs.85).aspx" id="bb762924_VS.85_en-us" title="Path Functions">Path Functions</a> <span>路徑處理函數</span></p>
+<p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773559(v=vs.85).aspx" id="bb762924_VS.85_en-us" title="Path Functions"><span>路徑處理函數</span></a></p>
+<p>以下函式清單:</p>
 <p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773561(v=vs.85).aspx" title="PathAddBackslash">PathAddBackslash</a></p>
 <p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773563(v=vs.85).aspx" title="PathAddExtension">PathAddExtension</a></p>
 <p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773565(v=vs.85).aspx" title="PathAppend">PathAppend</a></p>
