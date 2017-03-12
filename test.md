@@ -8,11 +8,11 @@
                   <p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773561(v=vs.85).aspx"><strong>PathAddBackslash</strong></a></p>
                 </td>
                 <td data-th="Description">
-                  <ol>                    
+                  <ul style="list-style-type:none;>                    
                     <li><code>Adds a backslash to the end of a string to create the correct syntax for a path.</code></li>
-                    <li><code>If the source path already has a trailing backslash, no backslash will be added.</code></li>                    
+                    <li><code>If the source path already has a trailing backslash, no backslash will be added.</code></li>
                     <li>將反斜線新增到字串的末尾做為新的路徑，如果原始路徑沒有反斜線則不會新增。</li>
-                  </ol>
+                  </ul>
                   <code>
                   <ol>
                     <li>TCHAR szBackslashNot[_MAX_PATH] = _T("C:\\TEST\\FILE");</li>
