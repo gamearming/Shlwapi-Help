@@ -8,21 +8,19 @@
                   <p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb773561(v=vs.85).aspx"><strong>PathAddBackslash</strong></a></p>
                 </td>
                 <td data-th="Description">
-                  <ol style="list-style-type:none;">
-                    <code>     
-                    <li>Adds a backslash to the end of a string to create the correct syntax for a path.</li>
-                    <li>If the source path already has a trailing backslash, no backslash will be added.</li>        
-                    </code>
+                  <ol style=list-style-type:none;>
+                    <li><code>Adds a backslash to the end of a string to create the correct syntax for a path.</code></li>
+                    <li><code>If the source path already has a trailing backslash, no backslash will be added.</code></li>
                     <li>將反斜線新增到字串的末尾做為新的路徑，如果原始路徑沒有反斜線則不會新增。</li>
-                  </ol>
+                  </ol>                  
+                  <ul style=list-style-type:decimal;>
                   <code>
-                  <ul style="list-style-type:decimal;">
                     <li>TCHAR szBackslashNot[_MAX_PATH] = _T("C:\\TEST\\FILE");</li>
                     <li>TCHAR szBackslashYes[_MAX_PATH] = _T("C:\\TEST\\FILE\\");</li>
                     <li>_tprintf(_T("%X = [%s]\r\n"), ::PathAddBackslash(szBackslashNot), szBackslashNot); // C:\TEST\FILE\</li>
                     <li>_tprintf(_T("%X = [%s]\r\n"), ::PathAddBackslash(szBackslashYes), szBackslashYes); // C:\TEST\FILE\</li>
-                  </ul>
-                  </code>
+                    </code>
+                  </ul>                  
                   <div class="alert">
                     <strong>Note:</strong>
                     <span>Misuse of this function can lead to a buffer overrun. We recommend the use of the safer</span>
